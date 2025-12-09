@@ -59,10 +59,10 @@ npm install
 3. **Set up environment variables**
 Create `.env.local` in the web folder:
 ```env
-MONGODB_URI=mongodb://localhost:27017/chat-app
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-super-secret-jwt-key
-NEXT_PUBLIC_SOCKET_URL=http://localhost:4001
+MONGODB_URI=mongodb+srv://dennisjames2001:dennisdj123@cluster0.qrqe7mx.mongodb.net/chatapp?retryWrites=true&w=majority&appName=Cluster0
+REDIS_URL=rediss://default:Aa2FAAIncDI1ZmY4YzNjZTE3MGM0OTNkOTdiZWYyYWQzYjAyNmZkYXAyNDQ0MjE@saved-toucan-44421.upstash.io:6379
+JWT_SECRET=2026
+REDIS_USE_TLS=true
 ```
 
 4. **Run the development server**
@@ -109,14 +109,7 @@ cd server
 npm install
 ```
 
-2. **Set up environment variables**
-Create `.env`:
-```env
-PORT=4001
-MONGODB_URI=mongodb://localhost:27017/chat-app
-```
-
-3. **Start the server**
+2. **Start the server**
 ```bash
 npm start
 ```
@@ -225,7 +218,7 @@ private-chat/
 
 ## 🎥 Video Walkthrough
 
-📹 **[Watch Demo Video](YOUR_VIDEO_LINK_HERE)**
+📹 **[Watch Demo Video](https://drive.google.com/file/d/1sxL2oT8DcBsz_Gm0ke-JW9trQux5fTw8/view?usp=drivesdk)**
 
 The video demonstrates:
 - User registration and login
